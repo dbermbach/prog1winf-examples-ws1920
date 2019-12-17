@@ -21,7 +21,7 @@ public class NumberUtils {
 
 	public static void main(String[] args) {
 		NumberUtils n = new NumberUtils();
-		List<Double> l = new ArrayList<Double>();
+		List<Double> l = new ArrayList<>();
 		for (int i = 0; i < 10; i++) {
 			l.add(i*1.0);
 		}

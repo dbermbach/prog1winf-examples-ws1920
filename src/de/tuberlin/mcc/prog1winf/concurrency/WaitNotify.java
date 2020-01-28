@@ -12,7 +12,7 @@ public class WaitNotify {
 
 	volatile int value = 0;
 	volatile boolean produced = false;
-	volatile Long failedTries = 0L;
+	Long failedTries = 0L;
 
 	void produce() {
 		value++;
